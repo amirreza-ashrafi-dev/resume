@@ -1,10 +1,10 @@
-import React from "react";
-import SectionSubtitle from "./SectionSubtitle";
-import { Container, Row, Col } from "reactstrap";
-import Image from "next/image";
-import Link from "next/link";
-import heroImg from "../../public/images/hero.jpg";
-import classes from "../../styles/hero.module.css";
+import React from 'react';
+import SectionSubtitle from './SectionSubtitle';
+import { Container, Row, Col } from 'reactstrap';
+import Image from 'next/image';
+import Link from 'next/link';
+import heroImg from '../../public/images/hero.jpg';
+import classes from '../../styles/hero.module.css';
 
 const Hero = () => {
   return (
@@ -39,7 +39,7 @@ const Hero = () => {
             <div className={`${classes.hero__img} text-end`}>
               <Image alt="hero-image" src={heroImg} width="400" height="400" />
 
-              <div className={`${classes.hero__skills}`}>
+              {/* <div className={`${classes.hero__skills}`}>
                 <h6>Skills</h6>
                 <span>
                   <i className="ri-bar-chart-line"></i>
@@ -59,7 +59,7 @@ const Hero = () => {
                 <span>
                   <i className="ri-bar-chart-line"></i>
                 </span>
-              </div>
+              </div> */}
 
               <div
                 className={`${classes.hero__experience} d-flex align-items-center gap-3`}
