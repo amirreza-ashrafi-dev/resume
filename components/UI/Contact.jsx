@@ -1,9 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
-import SectionSubtitle from "./SectionSubtitle";
-import classes from "../../styles/contact.module.css";
-import Form from "./Form";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import Link from 'next/link';
+import SectionSubtitle from './SectionSubtitle';
+import classes from '../../styles/contact.module.css';
+import Form from './Form';
 
 const Contact = () => {
   return (
@@ -24,31 +24,25 @@ const Contact = () => {
                 <span>
                   <i className="ri-map-pin-line"></i>
                 </span>
-                <p>Sylhet - Bangladesh</p>
+                <p>Tehran - tehran</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-mail-line"></i>
                 </span>
-                <p>muhib5532@gmail.com</p>
+                <p>mojtaba.see@gmail.com</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>+088123456789</p>
+                <p>+989380653982</p>
               </li>
             </ul>
 
             <div className={`${classes.social__links}`}>
-              <Link href="#">
-                <i className="ri-youtube-line"></i>
-              </Link>
-              <Link href="#">
+              <Link href="https://github.com/mojtaba-7">
                 <i className="ri-github-line"></i>
-              </Link>
-              <Link href="#">
-                <i className="ri-facebook-line"></i>
               </Link>
               <Link href="#">
                 <i className="ri-linkedin-line"></i>
