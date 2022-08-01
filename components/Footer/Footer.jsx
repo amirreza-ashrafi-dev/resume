@@ -56,8 +56,8 @@ const Footer = () => {
           <Col lg="12">
             <div className={`${classes.footer__copyright}`}>
               <p>
-                &copy; Copyright {year} - Developed by Muhibur Rahman. All right
-                reserved.{' '}
+                &copy; Copyright {year} - Developed by Mojtaba Shafiee. All
+                right reserved.{' '}
               </p>
             </div>
           </Col>

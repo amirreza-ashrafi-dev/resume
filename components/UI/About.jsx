@@ -4,10 +4,10 @@ import Link from 'next/link';
 import SectionSubtitle from './SectionSubtitle';
 import Image from 'next/image';
 
-import img01 from '../../public/images/img-01.jpg';
-import img02 from '../../public/images/img-02.jpg';
-import img03 from '../../public/images/img-03.jpg';
-import img04 from '../../public/images/hero.jpg';
+import img01 from '../../public/images/photo_2022-07-18_22-28-35.jpg';
+import img02 from '../../public/images/photo_2022-08-01_12-45-09.jpg';
+import img03 from '../../public/images/photo_2022-08-01_12-52-23.jpg';
+import img04 from '../../public/images/photo_2022-08-01_12-48-51.jpg';
 
 import classes from '../../styles/about.module.css';
 
@@ -21,11 +21,13 @@ const About = () => {
             <h3 className="mt-4">I&apos;m here</h3>
             <h3 className="mb-4">to help your next project</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+              II started programming with Java in 2017 and after several years
+              of training, I got my first internship experience at 2806.com.
+              After that, I gained experience by participating in various
+              projects. Also, I worked on{' '}
+              <a href="https://github.com/mojtaba-7/coffee">coffee</a> and{' '}
+              <a href="https://github.com/mojtaba-7/interaction">interaction</a>{' '}
+              projects in the Iranian Dino community.
             </p>
 
             <div className=" d-flex align-items-center gap-5">

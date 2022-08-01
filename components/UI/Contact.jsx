@@ -13,11 +13,7 @@ const Contact = () => {
           <Col lg="6" md="6">
             <SectionSubtitle subtitle="Contact me" />
             <h3 className="mt-4 mb-4">Contact with me</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              beatae ratione iusto cum. Doloremque suscipit eius provident error
-              labore est reprehenderit, exercitationem corrupti earum deleniti!
-            </p>
+            <p>You can also contact me this form easily.</p>
 
             <ul className={`${classes.contact__info__list}`}>
               <li className={`${classes.info__item}`}>
@@ -44,10 +40,10 @@ const Contact = () => {
               <Link href="https://github.com/mojtaba-7">
                 <i className="ri-github-line"></i>
               </Link>
-              <Link href="#">
+              <Link href="https://www.linkedin.com/in/mojtaba-shafiee-a919321b3/">
                 <i className="ri-linkedin-line"></i>
               </Link>
-              <Link href="#">
+              <Link href="https://www.instagram.com/this_mojtaba/">
                 <i className="ri-instagram-line"></i>
               </Link>
             </div>

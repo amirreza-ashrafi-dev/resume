@@ -3,7 +3,7 @@ import SectionSubtitle from './SectionSubtitle';
 import { Container, Row, Col } from 'reactstrap';
 import Image from 'next/image';
 import Link from 'next/link';
-import heroImg from '../../public/images/hero.jpg';
+import heroImg from '../../public/images/photo_2022-08-01_12-06-20.jpg';
 import classes from '../../styles/hero.module.css';
 
 const Hero = () => {
@@ -19,8 +19,8 @@ const Hero = () => {
               <h5 className="mb-4">Backend Developer</h5>
               <p>
                 Recently, I have been working as a backend developer (nodejs)
-                and some system admin for one year and 3 months in Akaf Web
-                software company.
+                and some system admin for one year and 3 months in{' '}
+                <a href="https://akafweb.com/">Akaf Web</a> software company.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
