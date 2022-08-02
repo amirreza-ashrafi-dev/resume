@@ -3,7 +3,7 @@ import SectionSubtitle from './SectionSubtitle';
 import { Container, Row, Col } from 'reactstrap';
 import Image from 'next/image';
 import Link from 'next/link';
-import heroImg from '../../public/images/photo_2022-08-01_12-06-20.jpg';
+import heroImg from '../../public/images/photo_2022-08-01_23-14-35.jpg';
 import classes from '../../styles/hero.module.css';
 
 const Hero = () => {
