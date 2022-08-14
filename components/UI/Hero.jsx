@@ -3,7 +3,7 @@ import SectionSubtitle from './SectionSubtitle';
 import { Container, Row, Col } from 'reactstrap';
 import Image from 'next/image';
 import Link from 'next/link';
-import heroImg from '../../public/images/hero.jpg';
+import heroImg from '../../public/images/photo_2022-08-01_23-14-35.jpg';
 import classes from '../../styles/hero.module.css';
 
 const Hero = () => {
@@ -15,20 +15,24 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Muhibur Rahman</h2>
-              <h5 className="mb-4">Frontend Developer</h5>
+              <h2 className="mt-3 mb-3">I&apos;m Mojtaba Shafiee</h2>
+              <h5 className="mb-4">Backend Developer</h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-                quos!
+                Recently, I have been working as a backend developer (nodejs)
+                and some system admin for one year and 3 months in{' '}
+                <a href="https://akafweb.com/">Akaf Web</a> software company.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
+                  <Link href="https://jobinja.ir/user/Mojtaba-Shafiee">
+                    <a target="_blank">Hire me</a>
+                  </Link>
                 </button>
 
                 <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  <Link href="https://jobinja.ir/user/Mojtaba-Shafiee/download">
+                    Download CV
+                  </Link>
                 </button>
               </div>
             </div>
@@ -69,7 +73,7 @@ const Hero = () => {
                 </span>
                 <div className="bg-transparent">
                   <h6>Experience</h6>
-                  <h5 className="mb-0">4 Years</h5>
+                  <h5 className="mb-0">3 Years</h5>
                 </div>
               </div>
             </div>
