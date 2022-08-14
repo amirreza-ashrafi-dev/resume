@@ -11,7 +11,7 @@ const portfolio = [
 
   {
     id: '02',
-    title: 'Travel  App',
+    title: 'Travel App',
     img: '/portfolio/nokoohamrah.png',
     category: 'Mobile App',
     keyword: ['Mobile', 'App', 'nikoohamrah'],
