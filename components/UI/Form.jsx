@@ -1,9 +1,12 @@
 import React from "react";
 import classes from "../../styles/form.module.css";
+import { useState } from "react";
 
 const Form = () => {
-  const submitHandler = () => {
+  const [state, setState] = useState(false);
+  const submitHandler = (e) => {
     e.preventDefault();
+    setState(true);
   };
   return (
     <form className={`${classes.form}`} onSubmit={submitHandler}>
@@ -16,6 +19,9 @@ const Form = () => {
       <div className={`${classes.form__group}`}>
         <textarea type="text" rows={5} placeholder="Message" required />
       </div>
+
+      {state && <div style={{ color: "#01d293" }}>I will see your message and call you soon.</div>}
+      <br />
 
       <button className="primary__btn" type="submit">
         Send

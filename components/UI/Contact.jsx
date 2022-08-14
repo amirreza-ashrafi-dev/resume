@@ -8,6 +8,7 @@ import Form from "./Form";
 const Contact = () => {
   return (
     <section id="contact" className={`${classes.contact}`}>
+      
       <Container>
         <Row>
           <Col lg="6" md="6">
