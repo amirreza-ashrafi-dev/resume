@@ -32,13 +32,13 @@ Thank you for considering my experience and qualifications. I look forward to di
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="https://jobinja.ir/user/Mojtaba-Shafiee">
+                  <Link href="https://cvbuilder.me/Resume/fa/f38d18d0-683f-480d-b9ee-b9d67021dea5?template=PreviewDefault">
                     <a target="_blank">Hire me</a>
                   </Link>
                 </button>
 
                 <button className="secondary__btn">
-                  <Link href="https://jobinja.ir/user/Mojtaba-Shafiee/download">
+                  <Link href="https://cvbuilder.me/Builder/Pdf/fa/PreviewDefault/f38d18d0-683f-480d-b9ee-b9d67021dea5/MyResume-540[www.cvbuilder.me]112.pdf">
                     Download CV
                   </Link>
                 </button>
