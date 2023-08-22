@@ -8,6 +8,8 @@ import img01 from '../../public/images/photo_2022-07-18_22-28-35.jpg';
 import img02 from '../../public/images/photo_2022-08-01_12-45-09.jpg';
 import img03 from '../../public/images/photo_2022-08-01_12-52-23.jpg';
 import img04 from '../../public/images/photo_2022-08-01_12-48-51.jpg';
+import img05 from '../../public/images/photo_5776137994556783606_y.jpg';
+import img06 from '../../public/images/photo_5902486066865224714_y.jpg';
 
 import classes from '../../styles/about.module.css';
 
@@ -94,6 +96,19 @@ const About = () => {
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
                   <Image src={img04} alt="about-img" />
+                </div>
+              </div>
+              <div className=" d-flex flex-column mb-3">
+                <div
+                  className={`${classes.about__img} ${classes.about__img__box}`}
+                >
+                  <Image src={img05} alt="about-img" />
+                </div>
+
+                <div
+                  className={`${classes.about__img} ${classes.about__img__box}`}
+                >
+                  <Image src={img06} alt="about-img" />
                 </div>
               </div>
             </div>

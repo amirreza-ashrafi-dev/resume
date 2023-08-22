@@ -22,6 +22,17 @@ const Services = () => {
             </div>
           </Col>
 
+          <Col lg="6" md="6">
+            <div className={`${classes.services__container}`}>
+              <div>
+                <ServicesItem title="Artificial Intelligence" icon="ri-code-s-slash-line" />
+              </div>
+              <div>
+                <ServicesItem title="Blockchain programming" icon="ri-code-s-slash-line" />
+            </div>
+            </div>
+          </Col>
+
           <Col lg="6" md="6" className={`${classes.service__title}`}>
             <SectionSubtitle subtitle="What I do" />
             <h3 className="mb-0 mt-4">Better Architecture,</h3>
