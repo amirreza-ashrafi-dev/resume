@@ -28,7 +28,7 @@ My work at ArshCo has not only honed my technical skills but also improved my ab
 
 I am proud of my contributions to the successful development of various projects at ArshCo, and I am excited to continue leveraging my expertise to create impactful and innovative backend solutions in the future.
 
-Thank you for considering my experience and qualifications. I look forward to discussing how my skills align with your organization's goals.
+Thank you for considering my experience and qualifications. I look forward to discussing how my skills align with your organizations goals.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
